@@ -4,12 +4,15 @@
 }
 
 body{
-    background-color: rgb(127, 225, 255);
+    background-color: rgb(0, 0, 0);
     font: normal 18pt arial;
 }
 header{
     color: white;
     text-align: center;
+}
+header h1 {
+    padding: 10px;
 }
 section{
     background: white;
