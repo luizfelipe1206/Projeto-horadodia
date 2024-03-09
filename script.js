@@ -43,6 +43,4 @@ function carregar() {
     setInterval(atualizarHora, 1000);
 }
 
-// Chamar a função para carregar a página
-carregar();
 
