@@ -8,7 +8,7 @@ function carregar() {
 
     if (hours >= 6 && hours < 12) {
         //BOM DIA
-        img.src = 'fotos/Dia.jpg';
+        img.src = '/fotos/Dia.jpg';
         gradient = 'background: -webkit-linear-gradient(left, #3C9CEC, #283F5B); ' +
                    'background: -moz-linear-gradient(left, #3C9CEC, #283F5B); ' +
                    'background: -ms-linear-gradient(left, #3C9CEC, #283F5B); ' +
@@ -16,7 +16,7 @@ function carregar() {
                    'background: linear-gradient(to right, #3C9CEC, #283F5B);';
     } else if (hours >= 12 && hours <= 17) {
         //BOA TARDE
-        img.src = 'fotos/tarde.jpg';
+        img.src = '/fotos/tarde.jpg';
         gradient = 'background: -webkit-linear-gradient(left, #FA7906, #5B3C28); ' +
                    'background: -moz-linear-gradient(left, #FA7906, #5B3C28); ' +
                    'background: -ms-linear-gradient(left, #FA7906, #5B3C28); ' +
@@ -24,7 +24,7 @@ function carregar() {
                    'background: linear-gradient(to right, #FA7906, #5B3C28);';
     } else {
         //BOA NOITE
-        img.src = 'fotos/noite.jpg';
+        img.src = '/fotos/noite.jpg';
         gradient = 'background: -webkit-linear-gradient(left, #DC4804, #000000); ' +
                    'background: -moz-linear-gradient(left, #DC4804, #000000); ' +
                    'background: -ms-linear-gradient(left, #DC4804, #000000); ' +
