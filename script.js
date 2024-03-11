@@ -12,15 +12,15 @@ function carregar() {
 
         if (hours >= 6 && hours < 12) {
             //BOM DIA
-            img.src = '/fotos/Dia.png';
+            img.src = 'dia.png';
             gradient = 'linear-gradient(to right, #3C9CEC, #283F5B)';
         } else if (hours >= 12 && hours <= 17) {
             //BOA TARDE
-            img.src = '/fotos/tarde.png';
+            img.src = 'tarde.png';
             gradient = 'linear-gradient(to right, #FA7906, #5B3C28)';
         } else {
             //BOA NOITE
-            img.src = '/fotos/noite.png';
+            img.src = 'noite.png';
             gradient = 'linear-gradient(to right, #DC4804, #000000)';
         }
 
